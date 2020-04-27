@@ -5,21 +5,22 @@
 		다. 비슷한 프로그램 CVS, SVN, GIT
 		
 	2) Git의 Server 와 Client
-		가. dropbox와 차이점 : dropbox에서는 dropbox만의 Server와 Client가 존재한다.
+		가. dropbox와 차이점
+			가) dropbox에서는 dropbox만의 Server와 Client가 존재한다.
 		
 	3) GitHub 이용방법
-        가. 주소(adress) : https://github.com/
-		나. 신규가입 후 로그인
-		다. 신규 저장소 생성
-			가) 저장소(reposiroty) : 각각의 프로젝트 소스를 저장하기 위한 각각의 저장소 (1:1)
-			나) 상단 (+)버튼 - New reposiroty
-			다) Reposiroty name 설정
-			라) Public : 모든 GitHub 사용자가 확인가능  / Private : 자신, 자신이 초대한 사용자만 사용가능
-			마) Create Reposiroty 
-		라. Text 파일 생성
-			가) Quick Setup - Creating a new file
-      나) Edit new file : 작성내용
-      다) Commit new file : 버전 update 주석
+                가. 주소(adress) : https://github.com/
+                나. 신규가입 후 로그인
+                다. 신규 저장소 생성
+                        가) 저장소(reposiroty) : 각각의 프로젝트 소스를 저장하기 위한 각각의 저장소 (1:1)
+                        나) 상단 (+)버튼 - New reposiroty
+                        다) Reposiroty name 설정
+                        라) Public : 모든 GitHub 사용자가 확인가능  / Private : 자신, 자신이 초대한 사용자만 사용가능
+                        마) Create Reposiroty 
+                라. Text 파일 생성
+                        가) Quick Setup - Creating a new file
+                        나) Edit new file : 작성내용
+                        다) Commit new file : 버전 update 주석
 		  
 	
 	4) 다른사용자의 Reposiroty 이용방법
@@ -28,5 +29,5 @@
 			가) Clone or download 
 			나) Clone with SSH : Git 이용해서 사용할때 사용
 			다) Download ZIP : 소스나 파일들만 이용할때 사용
-		다.	commites 클릭시 List
-			가) 최상위가 최신버전의 소스
+		다. commites 클릭시 List
+		        가) 최상위가 최신버전의 소스
