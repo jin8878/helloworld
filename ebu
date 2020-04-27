@@ -1,33 +1,79 @@
 1.GitHub
-	1) GitHub의 기능
-		가. 소스의 버전관리 시스템
-		나. 개발자와 소스를 체계적으로 관리해야하는 모든 사람들
-		다. 비슷한 프로그램 CVS, SVN, GIT
+	가. GitHub의 기능
+		1) 소스의 버전관리 시스템
+		2) 개발자와 소스를 체계적으로 관리해야하는 모든 사람들
+		3) 비슷한 프로그램 CVS, SVN, GIT
 		
-	2) Git의 Server 와 Client
-		가. dropbox와 차이점
+	나. Git의 Server 와 Client
+		1) dropbox와 차이점
 			가) dropbox에서는 dropbox만의 Server와 Client가 존재한다.
 		
-	3) GitHub 이용방법
-                가. 주소(adress) : https://github.com/
-                나. 신규가입 후 로그인
-                다. 신규 저장소 생성
-                        가) 저장소(reposiroty) : 각각의 프로젝트 소스를 저장하기 위한 각각의 저장소 (1:1)
-                        나) 상단 (+)버튼 - New reposiroty
-                        다) Reposiroty name 설정
-                        라) Public : 모든 GitHub 사용자가 확인가능  / Private : 자신, 자신이 초대한 사용자만 사용가능
-                        마) Create Reposiroty 
-                라. Text 파일 생성
-                        가) Quick Setup - Creating a new file
-                        나) Edit new file : 작성내용
-                        다) Commit new file : 버전 update 주석
-		  
+	다. GitHub 이용방법
+		1) 주소(address) : https://github.com/
+		2) 신규가입 후 로그인
+		3) Reposiroty : 신규 저장소 생성
+			가) 저장소(reposiroty) : 각각의 프로젝트 소스를 저장하기 위한 각각의 저장소 (1:1)
+			나) 상단 (+)버튼 - New reposiroty
+			다) Reposiroty name 설정
+			라) Public : 모든 GitHub 사용자가 확인가능 + 저장소 주소 / Private : 자신, 자신이 초대한 사용자만 사용가능
+			마) Create Reposiroty 
+		4) Reposiroty : Text 파일 생성
+			가) Quick Setup - Creating a new file
+			나) Edit new file : 작성내용
+			다) Commit new file : 버전 update 주석
+		5) Reposiroty : File Upload 
+			가) Upload Files
+			나) file drag 또는 choose your files
+			다) Commit Changes
+			라) 수정된 file을 다시 upload 하게되면 Commits list에서 Update된 file의 이력만 남음
+		6) Collaborator : 저장소 공유 사용자 등록방법
+			가) reposiroty main - Settings
+			나) Manage access - invite a collaborator
+			다) 대상자 nickname or e-mail 기입
+			라) 대상자 Accept invitation - 등록완료
+		7) Issues : 프로젝트에 대한 소통(문제점의논,토론 등) 공간
+			가) reposiroty main - Issues tab
+			나) new issues
+			다) Asslgnees, Labels 등 지정
+				- Labels : Issues type
+				- Asslgnees : 담당자 (+알림)
+			라) submit new issues : 생성
+			마) Close issues : issues 종료
+		8) Wiki : 지식공유
+		9) Insights : Project의 지표
+			가) Pulse : 종합지표
+			나) Contributors : 공헌자
+			다) Commits : 기간별 Commits 횟수
+			마) Code frequency : Code 지표
+			바) Forks : 프로젝트 복제 리스트
+		10) Pull requests : 내 자료를 가져가라고 요청
+		11) Actions : 명령어에 메크로 생성
+		12) 자주사용하는 명령어
+			가) git이 pc에 설치되어 있는 상태에서 진행
+			나) git clone [저장소주소] [저장될directory] 
+				: git저장소의 데이터 download
+			다) git diff 
+				: download 받은 소스의 변경사항 확인
+			라) git add [대상]
+				: commit 될 대상 선택
+			마) git commit [버전명]
+				: 버전생성
+			바) git log
+				: 히스토리(log) 확인
+			사) git push
+				: upload, 동기화
+			아) git status
+				: 상태 확인 (변경내용 등)
 	
-	4) 다른사용자의 Reposiroty 이용방법
-		가. commites : 소스의 버전관리 횟수
-		나. 프로젝트 사용방법 
+	라. 다른사용자의 Reposiroty 이용방법
+		1) commits : 소스의 버전관리 횟수
+		2) 프로젝트 사용방법 
 			가) Clone or download 
 			나) Clone with SSH : Git 이용해서 사용할때 사용
 			다) Download ZIP : 소스나 파일들만 이용할때 사용
-		다. commites 클릭시 List
-		        가) 최상위가 최신버전의 소스
+		3) commits 클릭시 List
+			가) 최상위가 최신버전의 소스
+			
+2.참고문헌
+	가. https://seomal.org/
+	나. youtube 생활코딩 : https://www.youtube.com/channel/UCvc8kv-i5fvFTJBFAk6n1SA
